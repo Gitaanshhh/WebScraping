@@ -18,4 +18,13 @@ from selenium import webdriver
 import os
 
 #os.environ['PATH'] += 'C:\\Users\\gitaa\\OneDrive\\Desktop\\A2\\WebSraping\\chromedriver-win64'
+
+url = "https://google.com"
+
 driver = webdriver.Chrome()
+driver.get(url)
+
+print('Connected')
+
+
+driver.implicitly_wait(30)
